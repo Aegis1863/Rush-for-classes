@@ -15,5 +15,5 @@
 url需要手动找到并且写入程序。
 
 #附运行效果图片
-![](https://github.com/Aegis1863/Rush-for-class/blob/master/运行效果1.jpg)<br>
+![](https://github.com/Aegis1863/Rush-for-class/blob/master/运行效果1.jpg)
 ![](https://github.com/Aegis1863/Rush-for-class/blob/master/运行效果2.jpg)
