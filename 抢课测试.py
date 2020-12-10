@@ -54,7 +54,7 @@ if isinstance(data, list):  # 判断data是不是列表，建议使用列表
     while (t == -1) and (p < p0) and (e < 5) and (num < 10000): # 出错5次停止
         for i in range(len(data)):
             try:
-                if p+eval(data[i]['kcmc'].split(' ')[2]) <= p0:  # 获取data中的课程学分，避免抢到的学分超过上限
+                if p + eval(data[i]['kcmc'].split(' ')[2]) <= p0:  # 获取data中的课程学分，避免抢到的学分超过上限
                     '''
                     发送请求，这是关键步骤
                     '''
@@ -70,12 +70,12 @@ if isinstance(data, list):  # 判断data是不是列表，建议使用列表
                         print('没有抢到{}，重复执行第{}次,现学分{}'.format(
                             data[i]['kcmc'].split(' ')[0], num, p))
                     elif t == 1:  # 返回1抢课成功
-                        p = p+eval(data[i]['kcmc'].split(' ')[2])  # 累加抢到的学分
+                        p = p + eval(data[i]['kcmc'].split(' ')[2])  # 累加抢到的学分
                         print('>>抢课成功,课程名称:{}，现学分{}'.format(
                             data[i]['kcmc'], p))
                     if p == p0:  # 抢满学分时跳出循环，停止程序
                         break
-                elif p+eval(data[i]['kcmc'].split(' ')[2]) > p0:  # 避免超过学分上限，若会超过，跳出循环，停止程序
+                elif p + eval(data[i]['kcmc'].split(' ')[2]) > p0:  # 避免超过学分上限，若会超过，跳出循环，停止程序
                     print('-->当前已经抢到最大学分限度，现有学分{}'.format(p))
                     if p0 == 1:  # 学分上限是特殊情况，只需要抢到一分课即可跳出
                         t = 1
@@ -84,7 +84,7 @@ if isinstance(data, list):  # 判断data是不是列表，建议使用列表
                 print('\n***出现网络问题，请登入网站检查是否正常***')
                 e = e + 1
     else:  # 不满足while的条件时显示以下内容
-        if p+eval(data[i]['kcmc'].split(' ')[2]) > p0:  # 继续抢课会超过学分上限提示
+        if p + eval(data[i]['kcmc'].split(' ')[2]) > p0:  # 继续抢课会超过学分上限提示
             print('==已经抢到最大限度，现有学分{}=='.format(p))
         elif p == p0:  # 学分抢满提示
             print('==学分已经满，现学分{}=='.format(p))
