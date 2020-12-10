@@ -28,8 +28,8 @@
 ============
 运行效果1（使用spyder）
 ----------
-![image](https://github.com/Aegis1863/Rush-for-class/blob/master/运行效果1.jpg)
+![image](https://github.com/LeeSunBowen/Rush-for-classes/blob/master/运行效果1.jpg)
 
 运行效果2（抢课成功效果）
 ----------
-![image](https://github.com/Aegis1863/Rush-for-class/blob/master/运行效果2.jpg)
+![image](https://github.com/LeeSunBowen/Rush-for-classes/blob/master/运行效果2.jpg)
