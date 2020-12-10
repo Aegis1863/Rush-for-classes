@@ -81,7 +81,7 @@ if isinstance(data, list):  # 判断data是不是列表，建议使用列表
                     break
             except:  # 出现网络问题会提示以下信息
                 print('\n***出现网络问题，请登入网站检查是否正常***')
-                e = e+1
+                e = e + 1
     else:  # 不满足while的条件时显示以下内容
         if p+eval(data[i]['kcmc'].split(' ')[2]) > p0:  # 继续抢课会超过学分上限提示
             print('==已经抢到最大限度，现有学分{}=='.format(p))
