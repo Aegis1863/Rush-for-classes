@@ -14,6 +14,7 @@ header = {'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-En
 
 # header=dict([line.split(": ",1) for line in header[i].split("\n")]) 已弃用
 
+# data 里面放抢课的data信息，这里放了全部网课的data信息，可以实现全部监控（丧心病狂）..
 data = [
     {'jxb_ids': '6cd00fe3532d56581b5a36f4f5aeeb091e8bd0d46dad8ad2cd6b412244c516f3a9295f22094065ad041c8296f612140e47ca0a12cb77d0b90404f1ce6c09cb1dee375273e91f88f2b14511c6f8736cf41139923b2b952d90ea8b06aba2bf1ece1c59467bf2cbaba8a27f556d5eaeda9aa586f48ca79703d062ded9b2c617f086', 'kch_id': '8C341314ABA711E7E0530B50C5DADB8B', 'kcmc': '(TX9838)舌尖上的植物学(网络通识课) - 2.0 学分', 'rwlx': '2', 'rlkz': '0', 'rlzlkz': '1', 'sxbj': '1', 'xxkbj': '0', 'qz': '0', 'cxbj': '0', 'xkkz_id': 'B43BB9A6FD6296B9E0530B50C5DA7240', 'njdm_id': '2018', 'zyh_id': '0307', 'kklxdm': '10', 'xklc': '1', 'xkxnm': '2020', 'xkxqm': '12'},
     {'jxb_ids': '56b035ad5c4bcfd37eefcd51202732a6d31bfb477b3329b265ffa294684933a25cb19b8d1876499564a607dca88a49391d551d90e001a6a107cd43233192a1c413c330a659968a744bfd0c8c6fbd1d41909052567586da861c7d673018a8397297c20143430f125a416da5625eca97aeac67babe8eee0c340a6b57e312daaaf5', 'kch_id': 'TX3705', 'kcmc': '(TX3705)科学技术简史(网络通识课) - 2.0 学分', 'rwlx': '2', 'rlkz': '0', 'rlzlkz': '1', 'sxbj': '1', 'xxkbj': '0', 'qz': '0', 'cxbj': '0', 'xkkz_id': 'B43BB9A6FD6296B9E0530B50C5DA7240', 'njdm_id': '2018', 'zyh_id': '0307', 'kklxdm': '10', 'xklc': '1', 'xkxnm': '2020', 'xkxqm': '12'},
