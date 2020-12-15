@@ -10,7 +10,8 @@ import time
 
 urlh = 'http://218.197.82.133/xsxk/zzxkyzbjk_xkBcZyZzxkYzb.html?gnmkdm=N253512&su=18020115'
 url = urlh
-header = {'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Connection': 'keep-alive', 'Content-Length': '606', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Cookie': 'JSESSIONID=EFDE1F7D64C25DAADB90212F453EE8B3', 'DNT': '1', 'Host': '218.197.82.133', 'Origin': 'http://218.197.82.133', 'Referer': 'http://218.197.82.133/xsxk/zzxkyzb_cxZzxkYzbIndex.html?gnmkdm=N253512&layout=default&su=18020115', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.57', 'X-Requested-With': 'XMLHttpRequest'}
+# header 里面放自己登录之后的头信息，其中cookie相当于身份认证
+header = {'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Connection': 'keep-alive', 'Content-Length': '606', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Cookie': 'JSESSIONID=EFDE1F7D64C', 'DNT': '1', 'Host': '218.197.82.133', 'Origin': 'http://218.197.82.133', 'Referer': 'http://218.197.82.133/xsxk/zzxkyzb_cxZzxkYzbIndex.html?gnmkdm=N253512&layout=default&su=18020115', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.57', 'X-Requested-With': 'XMLHttpRequest'}
 
 # header=dict([line.split(": ",1) for line in header[i].split("\n")]) 已弃用
 
